@@ -51,7 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\cameraScript.cs" />
+     <Compile Include="Assets\Scripts\collisionsScript.cs" />
      <Compile Include="Assets\Scripts\playerScript.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>D:/Unity/BrainJellyfish/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
