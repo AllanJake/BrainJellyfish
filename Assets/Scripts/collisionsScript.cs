@@ -24,5 +24,12 @@ public class collisionsScript : MonoBehaviour {
 
         if (other.CompareTag("mysteryBox"))
             mystery = true;
+
+        if (other.CompareTag("startCol"))
+        {
+            Debug.Log("We Hit the thing");
+            transform.position = new Vector3(transform.position.x, transform.position.y, -2490.0f);
+
+        }
     }
 }
